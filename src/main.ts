@@ -1,12 +1,10 @@
 import "./style.css"
 import Typewriter from "./Typewriter"
 
-// const typewriter = new Typewriter(document.querySelector(".whitespace") as HTMLDivElement, { loop: true })
-
 const typewriter = new Typewriter(
   document.querySelector(".whitespace") as HTMLDivElement,
   {
-    loop: false,
+    loop: true,
     typingSpeed: 10,
     deletingSpeed: 10,
   }
